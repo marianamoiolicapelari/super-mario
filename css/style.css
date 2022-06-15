@@ -33,8 +33,9 @@
 
 .clouds {
   position: absolute;
-  width: 300px;
-  animation: clouds-animation 20s infinite linear;
+  width: 400px;
+  margin-top: 15px;
+  animation: clouds-animation 30s infinite linear;
 }
 
 
