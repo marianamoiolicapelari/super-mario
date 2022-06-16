@@ -34,9 +34,9 @@
 
 .clouds {
   position: absolute;
-  width: 400px;
-  margin-top: 15px;
-  animation: clouds-animation 40s infinite linear;
+  width: 300px;
+  margin-top: 50px;
+  animation: clouds-animation 60s infinite linear;
 }
 
 .hidden {
@@ -45,9 +45,9 @@
 
 .over {
   position: absolute;
-  width: 350px;
-  top: 160px;
-  left: 36%;
+  width: 400px;
+  top: 130px;
+  left: 35%;
 }
 
 #button {
