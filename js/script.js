@@ -1,8 +1,7 @@
 const mario = document.querySelector('.mario')
 const pipe = document.querySelector('.pipe')
 const gameOver = document.querySelector('.over, .hidden')
-
-
+const btn = document.querySelector('#button')
 
 const jump = () => {
   mario.classList.add('jump')
@@ -32,11 +31,19 @@ const loop = setInterval(() => {
     gameOver.classList.add('over')
     gameOver.classList.remove('hidden')
 
-    clearInterval(loop)  
+    btn.classList.add('over')
+    btn.classList.remove('hidden')
 
+    
+    btn.addEventListener('click', function() {
+
+      location.reload()
+    })
+    
+    clearInterval(loop)  
+    
   } 
 }, 10)
-
 
 document.addEventListener('keydown', jump)
 document.addEventListener('click', jump)
