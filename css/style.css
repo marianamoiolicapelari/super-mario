@@ -38,6 +38,16 @@
   animation: clouds-animation 30s infinite linear;
 }
 
+.hidden {
+  display: none;
+}
+
+.over {
+  position: absolute;
+  width: 300px;
+  top: 160px;
+  left: 40%;
+}
 
 @keyframes pipe-animation {
   from {
